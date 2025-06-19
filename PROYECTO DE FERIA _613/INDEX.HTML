@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reino de las Setas</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start; /* <-- antes era center */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 30px 20px 20px 20px; /* más espacio arriba */
+      background-image: url("FONDO DE LA PAGINA PRINCIPAL.jpg");
+      background-size: contain;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: #fff;
+      text-align: center;
+      min-height: 100vh;
+      box-sizing: border-box;
+      background-color: black;
+    }
+
+    img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 15px; /* reducido para subir el contenido */
+      box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+
+    .cuadro-texto {
+      background-color: #28a745;
+      color: white;
+      padding: 20px;
+      max-width: 450px;
+      border-radius: 10px;
+      font-size: 20px;
+      line-height: 1.4;
+      word-wrap: break-word;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      margin-bottom: 15px; /* pequeño margen para separar del botón */
+    }
+
+    .boton-entrar {
+      background-color: #bfff00;
+      color: black;
+      font-weight: bold;
+      font-style: italic;
+      padding: 15px 35px;
+      font-size: 20px;
+      border: none;
+      border-radius: 10px;
+      margin-top: 0.5em; /* antes era 3em y luego 1em */
+      max-width: 200px;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: background-color 0.3s ease;
+    }
+
+    .boton-entrar:hover {
+      background-color: #a6e600;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="logo.jpeg" alt="Logo del proyecto sobre las setas" width="450" height="450" />
+
+  <div class="cuadro-texto">
+    Explora el fascinante reino de las Setas:<br>
+    naturaleza, ciencia y misterio bajo tus pies.
+  </div>
+
+  <a href="menu principal.html" class="boton-entrar">Entrar</a>
+
+</body>
+</html>

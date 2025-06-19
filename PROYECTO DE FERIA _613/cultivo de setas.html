@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Proceso del Cultivo de las Setas</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000; /* Fondo negro */
+      color: white; /* Texto blanco */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      text-transform: uppercase;
+      margin: 30px 0 10px 0;
+      color: #ffffff;
+      text-shadow: 2px 2px 5px #888;
+    }
+
+    header {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      background-color: #111;
+      padding: 20px 0;
+    }
+
+    .titulo-imagen {
+      max-width: 90%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    }
+
+    .galeria-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      padding: 30px 10px;
+      width: 100%;
+      max-width: 1000px;
+    }
+
+    .galeria-container img {
+      width: 100%;
+      max-width: 800px;
+      border-radius: 10px;
+      border: 3px solid #fff;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+      background-color: #222;
+      padding: 5px;
+    }
+
+    .boton-regresar {
+      margin: 30px;
+      padding: 12px 24px;
+      background-color: #ffffff;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .boton-regresar:hover {
+      background-color: #ccc;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>PROCESO DE CULTIVACION DE LAS SETAS</h1>
+
+  <header>
+    <img src="Hongo.gif">
+  </header>
+
+  <div class="galeria-container">
+    <img src="0.jpeg" alt="Imagen 0">
+    <img src="1.jpeg" alt="Imagen 1">
+    <img src="2.jpeg" alt="Imagen 2">
+    <img src="3.jpeg" alt="Imagen 3">
+    <img src="4.jpeg" alt="Imagen 4">
+    <img src="5.jpeg" alt="Imagen 5">
+    <img src="6.jpeg" alt="Imagen 6">
+    <img src="7.jpeg" alt="Imagen 7">
+  </div>
+
+  <!-- Botón de regreso -->
+  <a href="menu principal.html">
+    <button class="boton-regresar">Regresar al Menú Principal</button>
+  </a>
+
+</body>
+</html>

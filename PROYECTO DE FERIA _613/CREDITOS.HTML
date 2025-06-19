@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Créditos - Proyecto Hongo</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #7b1f2f, #4b0e1b);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    header {
+      background-color: rgba(123, 31, 47, 0.85);
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      border-bottom: 3px solid #b03a4e;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      letter-spacing: 2px;
+      text-shadow: 2px 2px 5px #310a15;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: rgba(255, 255, 255, 0.12);
+      padding: 30px 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    }
+    h2 {
+      text-align: center;
+      font-size: 2.5em;
+      margin-bottom: 25px;
+      text-shadow: 1px 1px 3px #310a15;
+    }
+    .section-title {
+      font-weight: 700;
+      font-size: 1.5em;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #b03a4e;
+      padding-bottom: 8px;
+      text-shadow: 1px 1px 2px #310a15;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+      font-size: 1.2em;
+      line-height: 1.6;
+      color: #f0d6db;
+      text-shadow: 1px 1px 2px #310a15;
+    }
+    ul li {
+      margin-bottom: 10px;
+      padding-left: 15px;
+      position: relative;
+    }
+    ul li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: #b03a4e;
+      font-weight: bold;
+      font-size: 1.4em;
+      line-height: 1;
+    }
+    .boton-regresar {
+      display: block;
+      width: fit-content;
+      margin: 40px auto 0;
+      background-color: #7b1f2f;
+      color: white;
+      padding: 15px 40px;
+      font-size: 1.3em;
+      font-weight: 600;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+      transition: background-color 0.3s ease;
+    }
+    .boton-regresar:hover {
+      background-color: #b03a4e;
+    }
+    footer {
+      text-align: center;
+      padding: 20px 10px;
+      background-color: rgba(123, 31, 47, 0.85);
+      color: #f0d6db;
+      font-size: 0.9em;
+      border-top: 3px solid #b03a4e;
+      margin-top: 40px;
+      box-shadow: 0 -4px 10px rgba(0,0,0,0.3);
+    }
+    @media (max-width: 600px) {
+      main {
+        padding: 20px 15px;
+      }
+      header h1 {
+        font-size: 2.2em;
+      }
+      h2 {
+        font-size: 2em;
+      }
+      .boton-regresar {
+        width: 90%;
+        padding: 15px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Créditos</h1>
+  </header>
+
+  <main>
+    <h2>Profesoras Responsables</h2>
+    <ul>
+      <li>Profesora Gabriela Flores Reyes</li>
+      <li>Profesora María Martha García López</li>
+    </ul>
+
+    <h2 class="section-title">Participación de los Alumnos</h2>
+    <p style="text-align:center; font-size:1.2em; margin-bottom: 25px;">
+      Grupo 613 Turno Vespertino
+    </p>
+    <ul>
+      <li>Sánchez Huerta Evelyn Esmeralda</li>
+      <li>García Chávez Leonardo Gael</li>
+      <li>Miguel Monjaraz Dalia Azucena</li>
+      <li>Quintero Hernández Ángel Rafael</li>
+      <li>Acosta López César Alejandro</li>
+      <li>Barragán Pimentel Viridiana</li>
+      <li>Hernández Macip Marcos</li>
+    </ul>
+
+    <a href="Menu principal.html" class="boton-regresar">Regresar al menú principal</a>
+  </main>
+
+  <footer>
+    © 2025 Proyecto Hongo | CONALEP
+  </footer>
+
+</body>
+</html>

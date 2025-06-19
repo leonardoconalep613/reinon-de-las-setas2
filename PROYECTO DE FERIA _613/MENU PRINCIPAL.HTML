@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Proyecto Setas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f1f8e9;
+    }
+
+    header {
+      background-color: #006837;
+      color: white;
+      padding: 40px 10px;
+      text-align: center;
+    }
+
+    header img {
+      width: 150px;
+      display: block;
+      margin: 0 auto 10px auto;
+    }
+
+    header h1 {
+      font-size: 28px;
+      margin: 0;
+    }
+
+    .contenido {
+      padding: 40px 20px;
+    }
+
+    .seccion-flex {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 40px;
+    }
+
+    .botones {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      flex: 1;
+      min-width: 280px;
+      max-width: 500px;
+    }
+
+    .botones button {
+      padding: 20px;
+      background-image: url('FONDO QUE YO QUIERO.JPG');
+      background-color: #009245;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+      cursor: pointer;
+      transition: transform 0.2s, background-color 0.3s;
+      background-size: cover;
+      background-position: center;
+      background-blend-mode: overlay;
+    }
+
+    .botones button:hover {
+      background-color: #007a36;
+      transform: scale(1.05);
+    }
+
+    .imagen-hongos {
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+      flex-shrink: 0;
+    }
+
+    @media (max-width: 900px) {
+      .seccion-flex {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .botones {
+        width: 100%;
+      }
+
+      .imagen-hongos {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Logo CONALEP.PNG" alt="Logotipo de CONALEP" />
+    <h1>CONALEP Estado de México - Plantel Ecatepec II</h1>
+  </header>
+
+  <div class="contenido">
+    <div class="seccion-flex">
+      <div class="botones">
+        <button onclick="location.href='historia.html'">Historia de la empresa</button>
+        <button onclick="location.href='filosofia de la empresa.html'">Filosofía de la empresa</button>
+        <button onclick="location.href='cultivo de setas.html'">Proceso del cultivo de las setas</button>
+        <button onclick="location.href='venta.html'">Venta de las setas</button>
+        <button onclick="location.href='creditos.html'">Créditos</button>
+        <button onclick="location.href='redes sociales.html'">Redes Sociales</button>
+      </div>
+
+      <img
+        class="imagen-hongos"
+        src="FONDO QUE YO QUIERO.JPG"
+        alt="Imagen agradable de hongos"
+      />
+    </div>
+  </div>
+</body>
+</html>
